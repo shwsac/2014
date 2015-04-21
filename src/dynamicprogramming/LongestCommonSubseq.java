@@ -1,6 +1,6 @@
 package dynamicprogramming;
 
-public class LowestCommmonSubSequence {
+public class LongestCommonSubseq {
 
 	public static int getLCSLength(String first, String second) {
 		if (first == null || second == null) {
@@ -63,8 +63,8 @@ public class LowestCommmonSubSequence {
 	}
 
 	public static void main(String[] args) {
-		String first = "monishbhagat";
-		String second = "shwetasachdeva";
+		String first = "axbxcxdx";
+		String second = "abcd";
 		System.out.println(getLCSLength(first, second));
 		System.out.println(getLCS(first, second));
 	}

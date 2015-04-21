@@ -4,7 +4,7 @@ public class MinimumInsertionsToMakePalidrome {
 
 	public static int minInsertionCountUsingLCS(String str) {
 		String rev = reverseString(str);
-		int len = LowestCommmonSubSequence.getLCSLength(str, rev);
+		int len = LongestCommonSubseq.getLCSLength(str, rev);
 		return str.length() - len;
 	}
 	

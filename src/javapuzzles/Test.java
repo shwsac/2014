@@ -12,6 +12,6 @@ public class Test {
     
     
     System.out.println(isOdd(-3));
-    System.out.println(-5 % 3);
+    System.out.println(-5 % 2);
   }
 }
