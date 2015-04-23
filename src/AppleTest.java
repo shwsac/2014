@@ -4,9 +4,9 @@ public class AppleTest {
 
 	public static void main(String[] args) {
 		BitSet bs = new BitSet();
-		String s = "MonishBhagat";
-		int x = 'M' - 'A';
-		System.out.println(x);
+		String s = "PETERTHIEL";
+//		int x = 'M' - 'A';
+//		System.out.println(x);
 		for (int i = 0; i < s.length(); i++) {
 			int bitIndex = s.charAt(i) - 'A';
 		//	System.out.println(bitIndex + " BI");
